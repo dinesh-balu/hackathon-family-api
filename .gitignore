@@ -1,0 +1,52 @@
+# .NET Core
+bin/
+obj/
+out/
+*.user
+*.suo
+*.cache
+*.docstates
+*.dll
+*.pdb
+*.exe
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+appsettings.Development.json
+appsettings.Local.json
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.sln.docstates
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Docker
+.dockerignore
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
